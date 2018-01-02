@@ -1,0 +1,5 @@
+Case 12 : unlimited cat - with unlimited sub cat with unlimited depth - and a product may be combined by  many sub cat on diff - diff depth and cat too and we have all features - some features will be a part of many products or a product may be many features with features values. we have reg users which can be rate(0-10) a product once only and rating should be show on average basis.
+
+
+
+

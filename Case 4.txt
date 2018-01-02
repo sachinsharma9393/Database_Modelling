@@ -1,0 +1,26 @@
+Case 4 : Product with in multi sub-category and cat brand and photo
+
+
+bid bname
+---------------
+
+
+cid cname
+---------------
+
+
+scid cid scname
+-----------------------
+
+
+prdid bid pname
+------------------------
+
+
+phID prdid phPATH
+------------------------------
+
+
+prdid   scid   phID
+--------------------------
+

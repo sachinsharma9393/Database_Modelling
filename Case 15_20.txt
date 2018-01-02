@@ -1,0 +1,23 @@
+Case 15 : Booking of Travels.
+
+
+Case 16 : Mobile part and assembling and sale to distributers.
+
+
+Case 17 : Maruti Manufacturing unit gurgaon.
+
+
+Case 18 : transport Office - trucks.
+
+
+Case 19 : Restaurent Orders Dynamically like Mc Donald.
+
+
+Case 20 : Tenders issue and get by filling quatations.
+
+
+
+
+
+
+

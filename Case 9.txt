@@ -1,0 +1,22 @@
+Case 9 : user reg - every user have an individual root folder - and that root folder may have files (.doc / .flv / .mp4 etc) or folder with unlimited depth
+
+RegID  name
+------------------
+101      Ramu
+102      GopalNath
+
+FFid  RegID  FTid  FFname FD_FL  Pid
+---------------------------------------------------------
+1       101       0         Boot      FD        0
+2       102       0         Root      FD        0
+3       101       2         JND      FL        1
+4       101       0         Gaane   FD        1
+5       102       0         MOVIZ FD        2
+6       101       3         b23        FL       4
+7       102       0         SKSM   FD        2
+
+FTid FTname
+--------------------
+1       .doc
+2       .flv
+3       .mp7

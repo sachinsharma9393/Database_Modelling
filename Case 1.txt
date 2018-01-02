@@ -1,0 +1,33 @@
+Case 1 : A shopkeeper has products of BRD and sale to customers and in sale we wanna manage date qty and rate ? 
+
+bid     bname
+-------------------
+1        lenovo
+2        dell
+
+prdid bid prdname  rate
+-----------------------------------
+101   1    c230         48000
+102   2    d11           12000
+103   1    c340         52000
+
+custID custNAME
+--------------------------
+1001   raj kumar
+1002   ashok kumar
+
+saleID custid saleDATE      
+----------------------------------
+1        1001   23/aug/2014  
+2        1002   24/aug/2014
+3        1001   24/aug/2014
+4        1002   24/aug/2014
+ 
+
+saleid  prdid   qty   rate 
+----------------------------------
+1        101       3     45000
+1        103       2     52000
+2        101       1     48000
+3        102       1     12000
+4        101        5      4555555

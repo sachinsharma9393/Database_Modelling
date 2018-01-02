@@ -1,0 +1,73 @@
+Case 13_LAST : C-ST-CT
+
+
+Ans 1 :
+
+cid cname
+--------------
+1    india
+2    china
+
+stid   cid  stname
+------------------------
+101   1     rajasthan
+102   2     zikaro
+103   1     Gujrat
+104   1     MP
+105   2     pirako
+
+ctid stid ctname
+-----------------------
+1     101   Jaipur
+2     104   Indore
+
+
+
+Ans 2 :
+
+cid cname
+--------------
+1    india
+2    china
+
+stid   cid  stname
+------------------------
+101   1     rajasthan
+102   2     zikaro
+103   1     Gujrat
+104   1     MP
+105   2     pirako
+
+ctid cid stid ctname
+-----------------------
+1    1    101   Jaipur
+2    1    104   Indore
+
+
+
+Ans 3 :
+
+cid cname
+--------------
+1    india
+2    china
+
+stid   cid  stname
+------------------------
+101   1     rajasthan
+101   2     zikaro
+102   1     Gujrat
+103   1     MP
+102   2     pirako
+
+ctid cid stid ctname
+-----------------------
+1    1    101   Jaipur
+1    1    103   Indore
+2    1    101   Udaipur
+
+
+
+
+
+

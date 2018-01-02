@@ -1,0 +1,34 @@
+Case 3 : Friend Request
+
+
+
+uid    uname
+---------------
+101   jai
+102   vijay   
+103   sanjay
+104   dhananjay
+105   mrityunjay
+
+sid sname
+--------------
+1   UA
+2   APP
+3   BLOCKED
+
+
+
+uid_F   uid_T  DOR  msg  FF
+----------------------------------------
+
+
+uid_F    uid_T  DOR  msg  sid
+-------------------------------------------
+101      102                        2
+101      105                        1
+105      102                        1
+105      104                        1
+103      104                        1
+102      105                        2
+
+

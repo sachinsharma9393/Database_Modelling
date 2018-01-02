@@ -1,0 +1,58 @@
+Case 11 : Blood Bank - Doners and Blood donation camps and blood units and issues records (blood units issue on cash basis or donate blood unit)
+
+BGid  BGname
+---------------------
+1         B+
+2         O-
+3         A+
+
+Did BGid Dname
+------------------------
+101  1      RP
+102  1      RS
+103  2      VNT
+104  1      VIKRAM
+105  3      SUNIL 
+
+Cid Cname
+----------------
+1     NAMO
+2     MODIdonation
+
+DCid  Did Cid  NOU
+----------------------------
+1001 101  1     1
+1002 102  1     3
+1003 103  1     1
+1004 104  1     1
+          
+1005 101  2     2
+1006 102  2     2
+
+BBSid  DCid_Did  NOU  Remains   TYPE
+----------------------------------------------------------
+10001   1001          1         0               1
+10002   1002          3         2               1 
+10003   1003          1         1               1
+10004   1004          1         1               1
+
+10005   1005          2         2               1
+10006   1006          2         2               1
+10007     105          1         1               2
+
+Pid BGid Pname
+-----------------------
+1    1        hari ram
+2    1        bhag-wan
+
+ISSid Pid ISSdate
+--------------------------
+101    1     15
+102    2     16
+103    1     16     
+
+ISSid  BBSid  TYPE    Amt_BBSid
+-------------------------------------------------
+101     10001  Cash        1250
+101     10002  Cash        1250
+101     10002  Blood     10007

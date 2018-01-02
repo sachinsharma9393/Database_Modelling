@@ -1,0 +1,37 @@
+Case 10 : hospital - multiple laboratories having multiple test but not compulsory all lab have all test but may some common test in some labs. we have lots of patient they may have multiple lab test. a test may have many heads but some heads may have in many test with default value but a patient may get diff value for diff heads.
+
+
+Lid  Lname
+----------------
+
+
+Tid Tname
+---------------
+
+
+Hid Hname minV maxV
+----------------------------------
+1     HG       130
+2     BLDp    80      120
+
+
+LTid  Lid Tid
+-------------------
+
+
+THid  Tid Hid
+--------------------
+
+
+PTid PTname
+-------------------
+
+
+PT_LT_id   LTid  PTid
+--------------------------------
+
+
+PT_LT_id   THid    GminV   GmaxV
+--------------------------------------------------
+                                 120
+                                 100       150

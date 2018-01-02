@@ -1,0 +1,35 @@
+Case 8 : Hotel - Rooms with room types on diff - diff floors - online booking - customer - multi room with multi type in a single booking - 
+total hotel facility into rooms - a room type may have no. of facilities but same into the same type
+
+
+floorID  floorNAME
+---------------------------
+1           First Floor
+
+
+RTid  RTname  Rate
+-----------------------------
+
+
+Rid  floorID  RTid  R_NO
+-----------------------------------
+
+
+FCid  FCname
+--------------------
+
+
+RTid FCid
+--------------
+
+
+custID  custNAME
+---------------------------
+
+
+bID custID bDATE
+---------------------------
+
+
+bID  Rid  bFROM   bTO   ckIN   ckOUT   bSTATUS
+-----------------------------------------------------------------------
